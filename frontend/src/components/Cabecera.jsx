@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 function Cabecera() {
   return (
-    <div>
-        <h1>Cabecera Works!</h1>
+    <div className="app-header">
+      <h1>Listado de Notas!</h1>
     </div>
-  )
+  );
 }
 
-export default Cabecera
+export default Cabecera;

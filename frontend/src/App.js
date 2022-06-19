@@ -10,7 +10,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<PaginaListaNotas />} />
-          <Route path="/:id" element={<PaginaNotas />} />
+          <Route path="/nota/:id" element={<PaginaNotas />} />
         </Routes>
       </BrowserRouter>
     </div>
